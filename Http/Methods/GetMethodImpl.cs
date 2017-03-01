@@ -11,7 +11,7 @@ namespace Library.Network.Http.Methods
     {
         public override void AsyncFun(HttpPkg pack)
         {
-            
+            throw new NotImplementedException();
         }
 
         public override void SyncFun(HttpPkg pack)
