@@ -24,7 +24,7 @@ namespace Library.Network.Http.Methods
                     HttpWebResponse httpResp = resp as HttpWebResponse;
                     if (pack.ResponseCallback != null)
                     {
-                        pack.ResponseCallback(httpResp.GetResponseStream());
+                        // pack.ResponseCallback(httpResp.GetResponseStream());
                     }
                 }
             }

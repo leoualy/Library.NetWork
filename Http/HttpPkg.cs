@@ -22,7 +22,7 @@ namespace Library.Network.Http
         #endregion Data
 
         #region Callback
-        public Action<System.IO.Stream> ResponseCallback { get; set; }
+        public Action<System.IO.Stream,System.Net.HttpStatusCode> ResponseCallback { get; set; }
         #endregion
     }
 }
